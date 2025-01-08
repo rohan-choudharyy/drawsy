@@ -1,4 +1,4 @@
-const SWATCHES = [
+export const SWATCHES = [
     "#000000",  // black
     "#ffffff",  // white
     "#ee3333",  // red
@@ -12,5 +12,3 @@ const SWATCHES = [
     "#fab005",  // yellow
     "#fd7e14",  // orange
 ];
-  
-export { SWATCHES };
