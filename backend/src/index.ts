@@ -19,7 +19,7 @@ const port = process.env.PORT || 3000;
 app.use(cors({
   origin: [
     'http://localhost:5173',  // Local development
-    'https://drawsy.rohvn.com/',  // Your production frontend URL
+    'https://drawsy.rohvn.com',// Your production frontend URL
   ],
   methods: ['GET', 'POST'],
   credentials: true
