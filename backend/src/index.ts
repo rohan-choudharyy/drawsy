@@ -19,7 +19,7 @@ const port = process.env.PORT || 3000;
 app.use(cors({
   origin: [
     'http://localhost:5173',  // Local development
-    'http://your-frontend-domain',  // Your production frontend URL
+    'https://drawsy-flw3.vercel.app/',  // Your production frontend URL
   ],
   methods: ['GET', 'POST'],
   credentials: true
